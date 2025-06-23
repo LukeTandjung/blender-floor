@@ -1,0 +1,9 @@
+[project]
+name = "blender_algorithm"
+version = "0.1.0"
+description = "A simple Blender algorithm project"
+readme = "README.md"
+dependencies = [
+    "bpy>=4.4.0",
+]
+requires-python = ">=3.11,<3.12"
