@@ -8,10 +8,14 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "bpy" },
+    { name = "mathutils" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "bpy", specifier = ">=4.4.0" }]
+requires-dist = [
+    { name = "bpy", specifier = ">=4.4.0" },
+    { name = "mathutils", specifier = ">=3.3.0" },
+]
 
 [[package]]
 name = "bpy"
@@ -112,6 +116,12 @@ sdist = { url = "https://files.pythonhosted.org/packages/f1/70/7703c29685631f5a7
 wheels = [
     { url = "https://files.pythonhosted.org/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl", hash = "sha256:946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3", size = 70442, upload-time = "2024-09-15T18:07:37.964Z" },
 ]
+
+[[package]]
+name = "mathutils"
+version = "3.3.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/5f/9d/e9b156c0e28b1a3fd970930bfd8b33f6cc5ae0863405ac46557225545b76/mathutils-3.3.0.tar.gz", hash = "sha256:b9371af8149f3f3f05ee165cb583b2df7b3fbc9935406d1c505a5276b8e563af", size = 245352, upload-time = "2022-09-21T13:50:55.666Z" }
 
 [[package]]
 name = "numpy"

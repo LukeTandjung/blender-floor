@@ -5,6 +5,6 @@ This script uses the uv package manager to run. To get all the dependencies need
 - uv sync
 
 The command to run (assuming you have blender!) is
-blender --background --python /path/to/main.py --image /path/to/your/image.png --fbx /path/to/your/model.fbx
+blender --background --python /path/to/main.py -- --image /path/to/your/image.png --fbx /path/to/your/model.fbx
 
 
